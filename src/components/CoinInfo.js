@@ -1,3 +1,4 @@
+// @ts-nocheck
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { HistoricalChart } from "../config/api";
@@ -22,6 +23,7 @@ import {
   Tooltip,
   Legend,
 } from "chart.js";
+
 ChartJS.register(
   CategoryScale,
   LinearScale,
